@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;
+    background-color: #e0e0e0;
+}
+
+.container {
+    width: 500px;
+    border: 1mm solid #0000002c;
+    padding: 16px;
+    border-radius: 16px;
+    background: #57f2ef;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 0.7mm solid #0000002c;
+    border-radius: 10px;
+    background: white;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    background-color: #d4d2d2;
+    outline: none;
+}
+
+input[type="text"]:focus::placeholder, input[type="password"]:focus::placeholder {
+    color: transparent;
+}
+
+
+hr {
+    border: 1px solid #0000002c;
+    margin-bottom: 16px;
+}
+
+#signUpbutton {
+    background-color: #27bfc4;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    margin: px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+    font-size:15px;
+}
+
+#signUpbutton:hover {
+    opacity: 1;
+}
+
+.error {
+    color: red;          /* text color */
+    font-size: 0.9em; 
+    padding-bottom: 15px;  /* slightly smaller font */
+}
