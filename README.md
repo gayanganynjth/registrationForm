@@ -1,0 +1,1 @@
+This is a simple registration page created by HTML, CSS, JavaScript.
