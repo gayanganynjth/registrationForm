@@ -6,6 +6,6 @@ This is a simple registration page created by use of the HTML, CSS, JavaScript.J
 
 📌According to Jquery validations name input tag required string, email input tag required email version string, in password input tag required length five string and confirm password input tag required the exactly same password insert previously.
 
-🚀Happy coding!
+🚀Happy coding!!
 
 ![HTML](Images/html.png) ![CSS](Images/css.png) ![JS](Images/java-script.png) ![Jquery](Images/jquery.png)
